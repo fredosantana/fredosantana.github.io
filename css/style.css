@@ -1,3 +1,11 @@
+body {
+  font-family: 'BenchNine', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Comfortaa', cursive;
+}
+
 .btn-primary {
   background: #313461;
   border-color: #313461;
@@ -52,4 +60,9 @@
 
 .section-a h1 {
   font-size: 50px;
+}
+
+.card-img-top {
+  height: 180px;
+  width: 100%;
 }
