@@ -7,9 +7,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Comfortaa', cursive;
 }
 
-.btn-primary {
-  background: #313461;
-  border-color: #313461;
+.navbar {
+  background-color: #190069;
+  background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .jumbotron {
@@ -18,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   /*border-bottom: 5px #f4f4f4 solid;*/
   border-radius: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .jumbotron, .card-block {
@@ -80,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   border: #fff;
   border-radius: none;
   text-align: center;
+  padding-top: 10px;
 }
 
 .card-img-top {

@@ -3,22 +3,54 @@
   <head>
   	<meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-  	<title>Strapped Theme</title>
+  	<title>Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=BenchNine|Comfortaa" rel="stylesheet">
   	<link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-inverse bg-faded">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNavDropdown" class="navbar-collapse collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/login') }}">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/register') }}">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 	  <div class="jumbotron jumbotron-main">
 
-      <nav class="navbar navbar-dark justify-content-between">
-        <a class="navbar-brand">Navbar</a>
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success btn-sm my-0" type="submit">Search</button>
-        </form>
-      </nav>
+
 
   		<div class="container">
         <br>
@@ -28,57 +60,78 @@
 
     <div class="card-deck">
       <div class="card">
-        <a href="http://nomster-wil-santana.herokuapp.com/"><img class="card-img-top" src="img/nomster.png" alt="Card image cap"></a>
+        <a href="http://nomster-wil-santana.herokuapp.com/" target="_blank"><img class="card-img-top" src="img/nomster.png" alt="Card image cap"></a>
         <div class="card-block">
           <h4 class="card-title">Nomster</h4>
           <p class="card-text">A Yelp clone.</p>
-          
+          <div class="card-footer">
+            <a href="https://github.com/fredosantana/nomster" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
+          </div>
         </div>
       </div>
       <div class="card">
-        <a href="http://splurty-wil-santana.herokuapp.com/"><img class="card-img-top" src="img/splurty.png" alt="Card image cap"></a>
+        <a href="http://splurty-wil-santana.herokuapp.com/" target="_blank"><img class="card-img-top" src="img/splurty.png" alt="Card image cap"></a>
         <div class="card-block">
           <h4 class="card-title">Splurty</h4>
           <p class="card-text">A random quote creator and generator.</p>
-                  </div>
+          <div class="card-footer">
+            <a href="https://github.com/fredosantana/splurty-" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
+          </div>
+        </div>
       </div>
       <div class="card">
-        <a href="http://fredogram.herokuapp.com/"><img class="card-img-top" src="img/fredogram.png" alt="Card image cap"></a>
+        <a href="http://fredogram.herokuapp.com/" target="_blank"><img class="card-img-top" src="img/fredogram.png" alt="Card image cap"></a>
         <div class="card-block">
           <h4 class="card-title">Fredogram</h4>
           <p class="card-text">An Instagram clone.</p>
-                  </div>
+          <div class="card-footer">
+            <a href="https://github.com/fredosantana/fredogram" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
+          </div>
+        </div>
       </div>
       <div class="card">
         <a href="http://flixter-wil-santana.herokuapp.com/"><img class="card-img-top" src="img/flixter.png" alt="Card image cap"></a>
         <div class="card-block">
           <h4 class="card-title">Flixter</h4>
           <p class="card-text">A video streaming platform.</p>
-                  </div>
+          <div class="card-footer">
+            <a href="https://github.com/fredosantana/flixter" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
+          </div>
+        </div>
       </div>
     </div>
     <br><br>
     <div class="card-deck">
       <div class="card">
-        <a href="https://fredosantana.github.io/mynote/index.html"><img class="card-img-top" src="img/mynote.png" alt="Card image cap"></a>
+        <a href="https://fredosantana.github.io/mynote/index.html" target="_blank"><img class="card-img-top" src="img/mynote.png" alt="Card image cap"></a>
         <div class="card-block">
           <h4 class="card-title">My Note</h4>
           <p class="card-text">An electronic post-it note.</p>
-                  </div>
+          <div class="card-footer">
+            <a href="https://github.com/fredosantana/stackskills/tree/master/fswd/projects/mynote" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
+          </div>
+        </div>
       </div>
       <div class="card">
-        <a href="https://fredosantana.github.io/dropdown_menu/index.html"><img class="card-img-top" src="img/dropdown.png" alt="Card image cap"></a>
+        <a href="https://fredosantana.github.io/dropdown_menu/index.html" target="_blank"><img class="card-img-top" src="img/dropdown.png" alt="Card image cap"></a>
         <div class="card-block">
           <h4 class="card-title">Dropdown Menu</h4>
           <p class="card-text">A sample dropdown menu.</p>
-                  </div>
+          <div class="card-footer">
+            <a href="https://github.com/fredosantana/stackskills/tree/master/fswd/projects/dropdown_menu" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
+          </div>
+
+        </div>
       </div>
       <div class="card">
-        <a href="https://fredosantana.github.io/html_template/index.html"><img class="card-img-top" src="img/html_template.png" alt="Card image cap"></a>
+        <a href="https://fredosantana.github.io/html_template/index.html" target="_blank"><img class="card-img-top" src="img/html_template.png" alt="Card image cap"></a>
         <div class="card-block">
           <h4 class="card-title">HTML Template</h4>
           <p class="card-text">A simple HTML template.</p>
-                  </div>
+          <div class="card-footer">
+            <a href="https://github.com/fredosantana/stackskills/tree/master/fswd/projects/html_template" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
+          </div>
+        </div>
       </div>
     </div>
 
