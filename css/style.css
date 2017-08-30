@@ -5,9 +5,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Comfortaa', cursive;
+  color: #fff;
 }
 
-.navbar {
+.navbar, .dropdown-menu {
   background-color: #190069;
   background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
