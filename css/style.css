@@ -1,11 +1,15 @@
 body {
   font-family: 'BenchNine', sans-serif;
-  background: #313461;
+  background-image: url("../img/guglieri-speciale.jpg");
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Comfortaa', cursive;
   color: #fff;
+}
+
+h2 {
+  text-align: center;
 }
 
 .navbar, .dropdown-menu {
@@ -75,9 +79,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 50px;
 }
 
-.card-deck {
+/*.card-deck {
   background: #313461;
-}
+}*/
+
 .card-block {
   color: #fff;
   border: #fff;
