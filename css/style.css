@@ -2,9 +2,14 @@ body {
   font-family: 'BenchNine', sans-serif;
   background-color: #DFDBE5;
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.18' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+
 }
 
-h1, h2, h3, h4, h5, h6 {
+h3 {
+  font-family: 'BenchNine', sans-serif;
+}
+
+h1, h2, h4, h5, h6, p {
   font-family: 'Comfortaa', cursive;
   color: #fff;
 }
@@ -13,10 +18,18 @@ h2 {
   text-align: center;
 }
 
-.navbar, .dropdown-menu, .card-block  {
+.navbar, .dropdown-menu, .footer {
   background-color: #190069;
   background-image: url("../img/binding-light.png");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar a:hover {
+  color: grey;
+}
+
+.nav-item dropdown {
+  font-size: 60px;
 }
 
 .jumbotron {
@@ -50,13 +63,18 @@ h2 {
   margin-bottom: 60px;
 }
 
-.navbar{
+.navbar {
   margin: 0;
   color: #fff;
 }
 
 .navbar a {
   color: #fff;
+}
+
+.card {
+  background-color: #190069;
+  background-image: url("../img/binding-light.png");
 }
 
 .card-block {
@@ -74,4 +92,41 @@ h2 {
 
 .card-text {
   letter-spacing: 1px;
+}
+
+.card-footer {
+  position: relative;
+}
+
+.card-footer a {
+  color: #fff;
+}
+
+.card-footer a:hover {
+  color: grey;
+}
+
+.footer {
+  /*position: absolute;*/
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer h3 {
+  color: #fff;
+  font-family: 'BenchNine', sans-serif;
+}
+
+.footer h3 a {
+  color: #fff;
+  font-family: 'BenchNine', sans-serif;
+}
+
+.footer h3 a:hover {
+  color: grey;
+  font-family: 'BenchNine', sans-serif;
+  text-decoration: none;
 }
