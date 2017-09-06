@@ -3,7 +3,7 @@ function getProfile(e) {
   console.log('Fetching...');
   var userName = document.getElementById('userName').value;
   if(!userName || userName == '') {
-    userName = 'fredosantana';
+    alert('You must enter a Github Username');
   }
 
   var xhttp = new XMLHttpRequest();
@@ -31,6 +31,7 @@ function getProfile(e) {
                                                               </ul>
                                                               <br>
                                                               <a href="${user.html_url}" target="_blank"><i class="fa fa-github-alt fa-3x" aria-hidden="true"></i></a>
+                                                              <p>Click GH icon to view full profile</p>
                                                             </div>
                                                           </div>
                                                         </div>

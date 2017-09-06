@@ -1,11 +1,13 @@
 .jumbotron h1 {
   text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-size: 75px;
 }
 
 img {
   width: 100%;
 }
 
-#profile {
+label, #profile {
   font-family: 'Raleway', sans-serif;
 }
