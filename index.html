@@ -1,163 +1,492 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
-  	<meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-  	<title>Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=BenchNine|Comfortaa" rel="stylesheet">
-  	<link rel="stylesheet" href="css/style.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>fredoSantana | Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-inverse bg-faded">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">fredoSantana</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
         </button>
-        <div id="navbarNavDropdown" class="navbar-collapse collapse">
-            <ul class="navbar-nav mr-auto">
-              <h3><li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Projects
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#current">Current Projects</a>
-                      <a class="dropdown-item" href="#ror">Ruby on Rails Apps</a>
-                  </div>
-              </li></h3>
-            </ul>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link" href="https://www.linkedin.com/in/wil-santana-3992559/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-              </li>
-
-              <li class="nav-item">
-                  <a class="nav-link" href="https://medium.com/@santana.wil" target="_blank"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/fredosantana" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="https://twitter.com/fredosantana227" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="https://www.youtube.com/channel/UCGryyeICbwQ0LfjG3iQLUkg" target="_blank"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
-              </li>
-
-
-            </ul>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <div class="container">
-
-  	  <div class="jumbotron jumbotron-main">
-
-
-
-    		<div class="container">
-          <br>
-    	    <h1>Wil Santana's Portfolio</h1>
-    		</div>
-      </div>
+    <!-- Header -->
+    <header class="masthead">
       <div class="container">
-        <div class="main-area">
-          <h2 id="current">Current Projects</h2>
-          <br>
-          <div class="card-deck">
-            <div class="card">
-              <a href="https://fredosantana.github.io/waynesgarden/" target="_blank"><img class="card-img-top" src="img/waynesgarden.png" alt="Card image cap"></a>
-              <div class="card-block">
-                <h4 class="card-title">Wayne's Garden</h4>
-                <p class="card-text">A jQuery Image Slider.</p>
-                <div class="card-footer">
-                  <a href="https://github.com/fredosantana/fredosantana.github.io/tree/master/waynesgarden" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <a href="https://fredosantana.github.io/github_ajax/" target="_blank"><img class="card-img-top" src="img/gh.png" alt="Card image cap"></a>
-              <div class="card-block">
-                <h4 class="card-title">Github Profile Finder</h4>
-                <p class="card-text">A profile finder powered by AJAX.</p>
-                <div class="card-footer">
-                  <a href="https://github.com/fredosantana/fredosantana.github.io/tree/master/github_ajax" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <a href="https://fredosantana.github.io/mynote/index.html" target="_blank"><img class="card-img-top" src="img/mynote.png" alt="Card image cap"></a>
-              <div class="card-block">
-                <h4 class="card-title">My Note</h4>
-                <p class="card-text">An electronic post-it note.</p>
-                <div class="card-footer">
-                  <a href="https://github.com/fredosantana/stackskills/tree/master/fswd/projects/mynote" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <br>
-          <h2 id="ror">Ruby on Rails Apps</h2>
-          <br>
-          <div class="card-deck">
-            <div class="card">
-              <a href="http://nomster-wil-santana.herokuapp.com/" target="_blank"><img class="card-img-top" src="img/nomster.png" alt="Card image cap"></a>
-              <div class="card-block">
-                <h4 class="card-title">Nomster</h4>
-                <p class="card-text">A Yelp clone.</p>
-                <div class="card-footer">
-                  <a href="https://github.com/fredosantana/nomster" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <a href="http://splurty-wil-santana.herokuapp.com/" target="_blank"><img class="card-img-top" src="img/splurty.png" alt="Card image cap"></a>
-              <div class="card-block">
-                <h4 class="card-title">Splurty</h4>
-                <p class="card-text">A random quote creator and generator.</p>
-                <div class="card-footer">
-                  <a href="https://github.com/fredosantana/splurty-" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <a href="http://fredogram.herokuapp.com/" target="_blank"><img class="card-img-top" src="img/fredogram.png" alt="Card image cap"></a>
-              <div class="card-block">
-                <h4 class="card-title">Fredogram</h4>
-                <p class="card-text">An Instagram clone.</p>
-                <div class="card-footer">
-                  <a href="https://github.com/fredosantana/fredogram" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <a href="http://flixter-wil-santana.herokuapp.com/"><img class="card-img-top" src="img/flixter.png" alt="Card image cap"></a>
-              <div class="card-block">
-                <h4 class="card-title">Flixter</h4>
-                <p class="card-text">A video streaming platform.</p>
-                <div class="card-footer">
-                  <a href="https://github.com/fredosantana/flixter" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <br>
+        <div class="intro-text">
+          <div class="intro-lead-in">Full-Stack Web Developer for hire</div>
+          <div class="intro-heading">fredoSantana</div>
         </div>
       </div>
-    <br>
-    <br>
+    </header>
 
-    </div>
-    <footer class="footer">
+    <!-- Services -->
+    <section id="services">
       <div class="container">
-        <h3>&copy; 2017 Wil Santana | <a href="mailto:santana.wil@gmail.com"> Email Me!</a></h3>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Services</h2>
+          </div>
+        </div>
+        <br>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle icon-javascript fa-2x text-primary"></i>
+              <i class=""></i>
+            </span>
+            <h4 class="service-heading">JavaScript Developer</h4>
+            <p class="text-muted">I aspire to build functional web applications. I have experience using client and server side libraries and frameworks such as jQuery, node.js, and mongo.db.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle icon-bootstrap fa-2x text-primary"></i>
+              <i class=""></i>
+            </span>
+            <h4 class="service-heading">Responsive Design</h4>
+            <p class="text-muted">All web applications in the portfolio section (including this portfolio) use the Bootstrap framework for responsive design. Can also customize and create templates using HTML5 and CSS3.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle icon-ruby-on-rails fa-2x text-primary"></i>
+            </span>
+            <h4 class="service-heading">Ruby on Rails</h4>
+            <p class="text-muted">Experience with the Ruby programming language and the Ruby On Rails framework to launch fully-functional web applications.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Portfolio</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/fredogram2.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Fredogram</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/nomster.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Nomster</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/flixter.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Flixter</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/waynesgarden.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Wayne's Garden</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/gh.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Github Profile Finder</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/mynote.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>My Note</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">About</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <img src="img/wil2.jpg">
+          </div>
+          <div class="col-md-5">
+            <p>I'm an aspiring web developer currently looking for a junior position. My fascination with web development started in 2007 buidling basic web sites using HTML and CSS. I made the decision to get into full-stack web development in 2016 by enrolling in the Firehose Project, a web development bootcamp with emphasis on the Ruby programming language and Ruby on Rails. I recently started to learn JavaScript based on how amazed I am by React and what it can do to improve user interfaces and experiences.</p>
+            <p>My goal is to develop web applications that will assist not-for-profit organizations. Currently I'm building an application that will automate the language assistance protocol process for an affordable housing agency. If you're interested in working with me then please contact me.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <span class="copyright">Copyright &copy; 2017 fredoSantana</span>
+          </div>
+          <div class="col-md-6">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/fredosantana227" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://medium.com/@santana.wil" target="_blank">
+                  <i class="fa fa-medium"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/wil-santana-3992559/" target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/fredosantana" target="_blank">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCGryyeICbwQ0LfjG3iQLUkg?view_as=subscriber" target="_blank">
+                  <i class="fa fa-youtube"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="mailto:santana.wil@gmail.com">
+                  <i class="fa fa-envelope"></i>
+                </a>
+              </li>
+
+
+
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
-	</body>
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Fredogram</h2>
+                  <p class="item-intro text-muted">An Instragram Clone</p>
+                  <a href="http://fredogram.herokuapp.com/"><a href="http://fredogram.herokuapp.com/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/fredogram2.png" alt=""></a>
+                  <a href="https://github.com/fredosantana/fredogram" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
+
+                  <p>Powered by Ruby on Rails, this app was tested using the Rspec rubygem prior to the UI being built. This was my introduction to test driven development.</p>
+                  <ul class="list-inline">
+                    <li>Launched: May 2016</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Nomster</h2>
+                  <p class="item-intro text-muted">A Yelp Clone.</p>
+                  <a href="http://nomster-wil-santana.herokuapp.com/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/nomster.png" alt=""></a>
+                  <a href="https://github.com/fredosantana/nomster" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
+
+                  <p>This app allows users to post information on favorite attractions. Once posted, the app will display the location on Google Maps, allows a photo to be uploaded, and enables other users to post comments. </p>
+                  <ul class="list-inline">
+                    <li>Launched: March 2016</li>
+                    <li>Powered by Ruby on Rails version 4.2</li>
+                    <li>Geolocation RubyGem used to display Google Maps</li>
+                    <li>Amazon Web Services and Paperclip RubyGem used for photo uploads</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Flixter</h2>
+                  <p class="item-intro text-muted">A video-streaming platform.</p>
+                  <a href="http://flixter-wil-santana.herokuapp.com/" target="blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/flixter.png" alt=""></a>
+                  <a href="https://github.com/fredosantana/flixter" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
+                  <p>This app allows students to sign-up for a course and teachers special access to post videos and edit content. </p>
+                  <ul class="list-inline">
+                    <li>Launched: June 2016</li>
+                    <li>Powered by Ruby on Rails version 4.2</li>
+                    <li>Stripe RubyGem used to conduct financial transactions</li>
+                    <li>JavaScript and jQuery used for teacher access to move course content</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Wayne's Garden</h2>
+                  <a href="https://fredosantana.github.io/waynesgarden/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/waynesgarden.png" alt=""></a>
+                  <a href="https://github.com/fredosantana/fredosantana.github.io/tree/master/waynesgarden" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
+
+                  <p>This is an image slider that features images of a backyard garden.</p>
+                  <ul class="list-inline">
+                    <li>Lauched: September 2017</li>
+                    <li>jQuery used for slider effect to function</li>
+                    <li>JavaScript alert placed temporarily when site is launched</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Github Profile Finder</h2>
+                  <p class="item-intro text-muted">A search engine that displays information for a Github user</p>
+                  <a href="https://fredosantana.github.io/github_ajax/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/gh.png" alt=""></a>
+                  <a href="https://github.com/fredosantana/fredosantana.github.io/tree/master/github_ajax" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a><small class="text-muted"></small>
+                  <p>AJAX is used to retrieve and return information when a user enters a Github username.</p>
+                  <ul class="list-inline">
+                    <li>Launched: September 2017</li>
+                    <li>AJAX-powered</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>MyNote</h2>
+                  <p class="item-intro text-muted">An electronic post-it note</p>
+                  <a href="https://fredosantana.github.io/mynote/index.html" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/mynote.png" alt=""></a>
+                  <i class="fa fa-github fa-3x" aria-hidden="true"><a href="https://github.com/fredosantana/stackskills/tree/master/fswd/projects/mynote" target="_blank"></a></i><small class="text-muted"></small>
+                  <p>Allows a user to enter a note that's kept in the browser's local storage until the user clears it.</p>
+                  <ul class="list-inline">
+                    <li>Launched: August 2017</li>
+                    <li>Vanilla JavaScript used for functionality</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+
 </html>
